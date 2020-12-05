@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Toyota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2 id="choose">Выберите конфигурацию автомобиля:</h2>
+    </div>
+    <div class="page">
+
+        <div id="img buttons">
+            <img id="carImg" src="img/black.png" alt="" width=400>
+            <div class="buttons">
+                <button id="whiteButton"></button>
+                <button id="blackButton"></button>
+                <button id="redButton"></button>
+            </div>
+        </div>
+        <div class="headerPrice">
+            <h1>Цена автомобиля</h1>
+
+            <div>
+                <h2 id="carPrice"></h2>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="selectionForm">
+                <!-- <h1>Цена автомобиля</h1> -->
+                <form class="transmissionForm" name="transmission">
+                    <p><input type="radio" name="transmissionRadio" value="50000" checked>Механическая КПП</p>
+                    <p><input type="radio" name="transmissionRadio" value="100000">Автоматическая КПП</p>
+                </form>
+            </div>
+
+            <div class="selectionForm">
+                <form class="engineForm" name="engine">
+                    <p><input type="radio" name="engineRadio" value="40000" checked>1.6 л 90 л.с.</p>
+                    <p><input type="radio" name="engineRadio" value="80000">2 л 122 л.с.</p>
+                    <p><input type="radio" name="engineRadio" value="120000">2,5 л 149 л.с.</p>
+                </form>
+                <div class="selectionForm">
+                    <form class="extrasForm" name="extras">
+                        <p><input type="checkbox" name="airCondition" id="" value="60000">Кондиционер</p>
+                        <p><input type="checkbox" name="cruiseControl" value="50000">Круиз-контроль</p>
+                        <p><input type="checkbox" name="xenonLights" id="checkXenon" value="25000">ксеноновые фары</p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>

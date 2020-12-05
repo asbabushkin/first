@@ -1,0 +1,91 @@
+.page{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+   }
+.headerPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h1{
+    /* background-color: greenyellow; */
+    width: 300px;
+    display: flex;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: dodgerblue; */
+}
+}
+#img_buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    height: 20px;
+    width: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#whiteButton{
+    background-color: rgb(239, 240, 238);
+}
+#blackButton{
+    background-color: black;
+}
+#redButton{
+    background-color: rgb(165, 46, 46);
+}
+.forms{
+display: flex;
+justify-content: space-between;
+}
+.selectionForm{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.transmissionForm{
+   
+    width: 180px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: dimgray;
+    border-width: 2px;
+    border-color: dimgrey;
+}
+
+.engineForm{
+    width: 150px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.extrasForm{
+    width: 150px;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+}
+
+#choose{
+padding-left: 800px;
+}
+
+body{
+    background-color: khaki;
+}
